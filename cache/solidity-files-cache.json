@@ -2,9 +2,45 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "D:\\Git\\HarryBlockDev\\contracts\\Token.sol": {
-      "lastModificationDate": 1624342581853,
-      "contentHash": "9f7025dbce98c6ddb312b22298c7108a",
+      "lastModificationDate": 1624344445618,
+      "contentHash": "69c243c2d86c3c15a3ad01d6ab27f17f",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.5"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "D:\\Git\\HarryBlockDev\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1624340972854,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.5",
         "settings": {
@@ -29,10 +65,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.5"
+        ">=0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Token"
+        "console"
       ]
     }
   }
