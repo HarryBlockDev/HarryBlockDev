@@ -17,3 +17,5 @@ $ npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waf
 add to hardhat.config.js 
 require("@nomiclabs/hardhat-waffle");
 
+create contracts dir, add Token.sol file.
+
