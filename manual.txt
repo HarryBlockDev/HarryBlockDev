@@ -19,3 +19,12 @@ require("@nomiclabs/hardhat-waffle");
 
 create contracts dir, add Token.sol file.
 
+
+compile contract!
+
+$ npx hardhat compile
+
+Testing contract!
+
+create test dir, then add Token.js
+

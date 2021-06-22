@@ -1,0 +1,16 @@
+address : used to store ethereum accounts
+
+mapping(address => uint256) balances 
+: here we store each account balance.
+
+/// 
+balances[msg.sender] = totalSupply;
+owner = msg.sender
+
+??? owner vs. balances ???
+
+external modifier: makes a function *only* callable from outside
+
+require: if first argument evaluates to 'false' then the transaction will revert!
+
+view modifier: it doesn't modify the contract's state, which allows us to call it without executing a transaction.
